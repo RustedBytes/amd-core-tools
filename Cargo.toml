@@ -38,4 +38,4 @@ amd-exec-protect = { version = "0.1.0", path = "crates/amd-exec-protect" }
 amd-legacy = { version = "0.1.0", path = "crates/amd-legacy" }
 
 [workspace.dependencies]
-bitflags = "2.4"
+bitflags = "2.13"
