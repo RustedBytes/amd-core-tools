@@ -1,0 +1,11 @@
+[package]
+name = "amd-virt"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "AMD secure virtual machine and memory management helpers."
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[dependencies]

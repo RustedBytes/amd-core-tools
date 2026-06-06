@@ -1,0 +1,11 @@
+[package]
+name = "amd-cpuid"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Core AMD hardware detection helpers."
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[dependencies]

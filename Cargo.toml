@@ -1,0 +1,41 @@
+[workspace]
+members = [
+    "crates/amd-cpuid",
+    "crates/amd-rng",
+    "crates/amd-sev",
+    "crates/amd-virt",
+    "crates/amd-perf",
+    "crates/amd-exec-protect",
+    "crates/amd-legacy",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Yehor Smoliakov <egorsmkv@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/RustedBytes/amd-core-tools"
+readme = "README.md"
+
+[package]
+name = "amd-core-tools"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Top-level CLI for AMD core tooling crates."
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[dependencies]
+amd-cpuid = { version = "0.1.0", path = "crates/amd-cpuid" }
+amd-rng = { version = "0.1.0", path = "crates/amd-rng" }
+amd-sev = { version = "0.1.0", path = "crates/amd-sev" }
+amd-virt = { version = "0.1.0", path = "crates/amd-virt" }
+amd-perf = { version = "0.1.0", path = "crates/amd-perf" }
+amd-exec-protect = { version = "0.1.0", path = "crates/amd-exec-protect" }
+amd-legacy = { version = "0.1.0", path = "crates/amd-legacy" }
+
+[workspace.dependencies]
+bitflags = "2.4"

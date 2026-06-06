@@ -1,0 +1,11 @@
+[package]
+name = "amd-exec-protect"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "AMD memory and control-flow protection helpers."
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[dependencies]

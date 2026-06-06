@@ -1,0 +1,11 @@
+[package]
+name = "amd-legacy"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Legacy AMD features (x87 FPU, GPRs, SMM)"
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[dependencies]
